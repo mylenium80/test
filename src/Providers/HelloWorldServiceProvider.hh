@@ -1,6 +1,6 @@
 <?hh //strict
 
-    namespace HelloWorld\Providers;
+    namespace test\Providers;
 
 
     use Plenty\Plugin\ServiceProvider;

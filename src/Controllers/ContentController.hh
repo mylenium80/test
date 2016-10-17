@@ -1,6 +1,6 @@
 <?hh //strict
 
-    namespace HelloWorld\Controllers;
+    namespace test\Controllers;
 
 
     use Plenty\Plugin\Controller;
@@ -10,6 +10,6 @@
     {
         public function sayHello(Twig $twig):string
         {
-            return $twig->render('HelloWorld::content.test');
+            return $twig->render('test::content.test');
         }
     }
