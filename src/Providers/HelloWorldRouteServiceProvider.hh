@@ -10,6 +10,6 @@
     {
         public function map(Router $router):void
         {
-          $router->get('hello','HelloWorld\Controllers\ContentController@sayHello');
+          $router->get('test','test\Controllers\ContentController@sayHello');
         }
     }
